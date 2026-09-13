@@ -1,0 +1,730 @@
+[
+  {
+    "word": "Samin\u2019s",
+    "start": 0.0,
+    "end": 1.04,
+    "probability": 0.47094198502600193,
+    "segment": 0
+  },
+  {
+    "word": "Azelaic",
+    "start": 1.04,
+    "end": 1.72,
+    "probability": 0.6187852770090103,
+    "segment": 0
+  },
+  {
+    "word": "Acid",
+    "start": 1.72,
+    "end": 1.9,
+    "probability": 0.8771020770072937,
+    "segment": 0
+  },
+  {
+    "word": "The",
+    "start": 2.92,
+    "end": 3.34,
+    "probability": 0.4839673638343811,
+    "segment": 1
+  },
+  {
+    "word": "glass",
+    "start": 3.34,
+    "end": 3.56,
+    "probability": 0.5552329421043396,
+    "segment": 1
+  },
+  {
+    "word": "skin",
+    "start": 3.56,
+    "end": 3.98,
+    "probability": 0.9442095756530762,
+    "segment": 1
+  },
+  {
+    "word": "routine",
+    "start": 3.98,
+    "end": 4.28,
+    "probability": 0.9947675466537476,
+    "segment": 1
+  },
+  {
+    "word": "explained",
+    "start": 4.28,
+    "end": 5.36,
+    "probability": 0.5058844685554504,
+    "segment": 1
+  },
+  {
+    "word": "Azelaic",
+    "start": 6.36,
+    "end": 7.2,
+    "probability": 0.7112546414136887,
+    "segment": 2
+  },
+  {
+    "word": "acid",
+    "start": 7.2,
+    "end": 7.4,
+    "probability": 0.6899580359458923,
+    "segment": 2
+  },
+  {
+    "word": "is",
+    "start": 7.4,
+    "end": 7.82,
+    "probability": 0.9979681372642517,
+    "segment": 2
+  },
+  {
+    "word": "our",
+    "start": 7.82,
+    "end": 7.94,
+    "probability": 0.9920089244842529,
+    "segment": 2
+  },
+  {
+    "word": "lead",
+    "start": 7.94,
+    "end": 8.16,
+    "probability": 0.9593299031257629,
+    "segment": 2
+  },
+  {
+    "word": "ingredient.",
+    "start": 8.16,
+    "end": 8.44,
+    "probability": 0.9944025874137878,
+    "segment": 2
+  },
+  {
+    "word": "It",
+    "start": 9.36,
+    "end": 9.38,
+    "probability": 0.9791298508644104,
+    "segment": 3
+  },
+  {
+    "word": "helps",
+    "start": 9.38,
+    "end": 9.56,
+    "probability": 0.9985017776489258,
+    "segment": 3
+  },
+  {
+    "word": "treat",
+    "start": 9.56,
+    "end": 9.88,
+    "probability": 0.9978300929069519,
+    "segment": 3
+  },
+  {
+    "word": "acne",
+    "start": 9.88,
+    "end": 10.16,
+    "probability": 0.98017817735672,
+    "segment": 3
+  },
+  {
+    "word": "and",
+    "start": 10.16,
+    "end": 10.66,
+    "probability": 0.9955770969390869,
+    "segment": 3
+  },
+  {
+    "word": "the",
+    "start": 10.66,
+    "end": 10.78,
+    "probability": 0.9895864725112915,
+    "segment": 3
+  },
+  {
+    "word": "dark",
+    "start": 10.78,
+    "end": 10.98,
+    "probability": 0.9959136843681335,
+    "segment": 3
+  },
+  {
+    "word": "marks",
+    "start": 10.98,
+    "end": 11.28,
+    "probability": 0.98982834815979,
+    "segment": 3
+  },
+  {
+    "word": "left",
+    "start": 11.28,
+    "end": 11.74,
+    "probability": 0.9970414042472839,
+    "segment": 3
+  },
+  {
+    "word": "behind.",
+    "start": 11.74,
+    "end": 12.24,
+    "probability": 0.9988117218017578,
+    "segment": 3
+  },
+  {
+    "word": "Prescription",
+    "start": 12.98,
+    "end": 13.44,
+    "probability": 0.9454208016395569,
+    "segment": 4
+  },
+  {
+    "word": "tretinoin",
+    "start": 13.44,
+    "end": 14.26,
+    "probability": 0.715618222951889,
+    "segment": 4
+  },
+  {
+    "word": "helps",
+    "start": 14.26,
+    "end": 14.46,
+    "probability": 0.9864693880081177,
+    "segment": 4
+  },
+  {
+    "word": "keep",
+    "start": 14.46,
+    "end": 14.8,
+    "probability": 0.9968558549880981,
+    "segment": 4
+  },
+  {
+    "word": "pores",
+    "start": 14.8,
+    "end": 15.1,
+    "probability": 0.9786936044692993,
+    "segment": 4
+  },
+  {
+    "word": "clear.",
+    "start": 15.1,
+    "end": 15.58,
+    "probability": 0.9969182014465332,
+    "segment": 4
+  },
+  {
+    "word": "Cicaplast",
+    "start": 16.32,
+    "end": 16.96,
+    "probability": 0.6212860941886902,
+    "segment": 5
+  },
+  {
+    "word": "Baume",
+    "start": 16.96,
+    "end": 17.4,
+    "probability": 0.3212185651063919,
+    "segment": 5
+  },
+  {
+    "word": "B5",
+    "start": 17.4,
+    "end": 18.22,
+    "probability": 0.8637460172176361,
+    "segment": 5
+  },
+  {
+    "word": "plus",
+    "start": 18.22,
+    "end": 18.58,
+    "probability": 0.4991980493068695,
+    "segment": 5
+  },
+  {
+    "word": "moisturizes",
+    "start": 18.58,
+    "end": 19.46,
+    "probability": 0.8206860423088074,
+    "segment": 5
+  },
+  {
+    "word": "and",
+    "start": 19.46,
+    "end": 19.66,
+    "probability": 0.9916493892669678,
+    "segment": 5
+  },
+  {
+    "word": "soothes",
+    "start": 19.66,
+    "end": 20.2,
+    "probability": 0.797321230173111,
+    "segment": 5
+  },
+  {
+    "word": "dry,",
+    "start": 20.2,
+    "end": 20.56,
+    "probability": 0.9849334359169006,
+    "segment": 5
+  },
+  {
+    "word": "irritated",
+    "start": 20.96,
+    "end": 21.24,
+    "probability": 0.9917768239974976,
+    "segment": 5
+  },
+  {
+    "word": "skin.",
+    "start": 21.24,
+    "end": 21.92,
+    "probability": 0.999121367931366,
+    "segment": 5
+  },
+  {
+    "word": "Think",
+    "start": 22.86,
+    "end": 23.12,
+    "probability": 0.892891526222229,
+    "segment": 6
+  },
+  {
+    "word": "treatment",
+    "start": 23.12,
+    "end": 23.5,
+    "probability": 0.8359445333480835,
+    "segment": 6
+  },
+  {
+    "word": "plus",
+    "start": 23.5,
+    "end": 24.1,
+    "probability": 0.8857916593551636,
+    "segment": 6
+  },
+  {
+    "word": "comfort.",
+    "start": 24.1,
+    "end": 24.6,
+    "probability": 0.9936264753341675,
+    "segment": 6
+  },
+  {
+    "word": "Glass",
+    "start": 25.62,
+    "end": 26.08,
+    "probability": 0.9829337000846863,
+    "segment": 7
+  },
+  {
+    "word": "skin",
+    "start": 26.08,
+    "end": 26.54,
+    "probability": 0.9811567664146423,
+    "segment": 7
+  },
+  {
+    "word": "is",
+    "start": 26.54,
+    "end": 26.88,
+    "probability": 0.998664379119873,
+    "segment": 7
+  },
+  {
+    "word": "an",
+    "start": 26.88,
+    "end": 27.0,
+    "probability": 0.978272020816803,
+    "segment": 7
+  },
+  {
+    "word": "aesthetic",
+    "start": 27.0,
+    "end": 27.3,
+    "probability": 0.9677115082740784,
+    "segment": 7
+  },
+  {
+    "word": "goal,",
+    "start": 27.3,
+    "end": 27.78,
+    "probability": 0.9989998936653137,
+    "segment": 7
+  },
+  {
+    "word": "not",
+    "start": 27.78,
+    "end": 28.42,
+    "probability": 0.08115898817777634,
+    "segment": 8
+  },
+  {
+    "word": "a",
+    "start": 28.42,
+    "end": 28.42,
+    "probability": 0.9917787909507751,
+    "segment": 8
+  },
+  {
+    "word": "guaranteed",
+    "start": 28.42,
+    "end": 28.88,
+    "probability": 0.9944751858711243,
+    "segment": 8
+  },
+  {
+    "word": "result",
+    "start": 28.88,
+    "end": 29.42,
+    "probability": 0.9910835027694702,
+    "segment": 8
+  },
+  {
+    "word": "or",
+    "start": 29.42,
+    "end": 29.8,
+    "probability": 0.9051975607872009,
+    "segment": 8
+  },
+  {
+    "word": "a",
+    "start": 29.8,
+    "end": 29.88,
+    "probability": 0.9916732907295227,
+    "segment": 8
+  },
+  {
+    "word": "proven",
+    "start": 29.88,
+    "end": 30.18,
+    "probability": 0.9895448088645935,
+    "segment": 8
+  },
+  {
+    "word": "three",
+    "start": 30.18,
+    "end": 30.5,
+    "probability": 0.7075996994972229,
+    "segment": 8
+  },
+  {
+    "word": "-product",
+    "start": 30.5,
+    "end": 30.92,
+    "probability": 0.8383881449699402,
+    "segment": 8
+  },
+  {
+    "word": "cure.",
+    "start": 30.92,
+    "end": 31.32,
+    "probability": 0.9960125684738159,
+    "segment": 8
+  },
+  {
+    "word": "Fewer",
+    "start": 32.24,
+    "end": 32.62,
+    "probability": 0.9901237487792969,
+    "segment": 9
+  },
+  {
+    "word": "breakouts",
+    "start": 32.62,
+    "end": 33.1,
+    "probability": 0.9751012623310089,
+    "segment": 9
+  },
+  {
+    "word": "and",
+    "start": 33.1,
+    "end": 33.32,
+    "probability": 0.9927710890769958,
+    "segment": 9
+  },
+  {
+    "word": "fading",
+    "start": 33.32,
+    "end": 33.58,
+    "probability": 0.9867327809333801,
+    "segment": 9
+  },
+  {
+    "word": "marks",
+    "start": 33.58,
+    "end": 33.94,
+    "probability": 0.9961137771606445,
+    "segment": 9
+  },
+  {
+    "word": "can",
+    "start": 33.94,
+    "end": 34.24,
+    "probability": 0.9978247880935669,
+    "segment": 9
+  },
+  {
+    "word": "take",
+    "start": 34.24,
+    "end": 34.46,
+    "probability": 0.999039351940155,
+    "segment": 9
+  },
+  {
+    "word": "weeks",
+    "start": 34.46,
+    "end": 34.74,
+    "probability": 0.9991439580917358,
+    "segment": 9
+  },
+  {
+    "word": "to",
+    "start": 34.74,
+    "end": 35.08,
+    "probability": 0.9989334940910339,
+    "segment": 9
+  },
+  {
+    "word": "months.",
+    "start": 35.08,
+    "end": 35.32,
+    "probability": 0.9992864727973938,
+    "segment": 9
+  },
+  {
+    "word": "This",
+    "start": 36.04,
+    "end": 36.18,
+    "probability": 0.9957848191261292,
+    "segment": 10
+  },
+  {
+    "word": "before",
+    "start": 36.18,
+    "end": 36.4,
+    "probability": 0.9718965291976929,
+    "segment": 10
+  },
+  {
+    "word": "and",
+    "start": 36.4,
+    "end": 36.74,
+    "probability": 0.9184471964836121,
+    "segment": 10
+  },
+  {
+    "word": "after",
+    "start": 36.74,
+    "end": 37.06,
+    "probability": 0.9996542930603027,
+    "segment": 10
+  },
+  {
+    "word": "is",
+    "start": 37.06,
+    "end": 37.36,
+    "probability": 0.9934049248695374,
+    "segment": 10
+  },
+  {
+    "word": "an",
+    "start": 37.36,
+    "end": 37.44,
+    "probability": 0.9966926574707031,
+    "segment": 10
+  },
+  {
+    "word": "illustration,",
+    "start": 37.44,
+    "end": 37.84,
+    "probability": 0.9991243481636047,
+    "segment": 10
+  },
+  {
+    "word": "not",
+    "start": 38.5,
+    "end": 38.68,
+    "probability": 0.9951772689819336,
+    "segment": 10
+  },
+  {
+    "word": "a",
+    "start": 38.68,
+    "end": 38.82,
+    "probability": 0.9975389242172241,
+    "segment": 10
+  },
+  {
+    "word": "patient",
+    "start": 38.82,
+    "end": 39.12,
+    "probability": 0.998390793800354,
+    "segment": 10
+  },
+  {
+    "word": "result.",
+    "start": 39.12,
+    "end": 39.48,
+    "probability": 0.9964109063148499,
+    "segment": 10
+  },
+  {
+    "word": "Start",
+    "start": 40.46,
+    "end": 40.78,
+    "probability": 0.9970652461051941,
+    "segment": 11
+  },
+  {
+    "word": "gradually",
+    "start": 40.78,
+    "end": 41.28,
+    "probability": 0.9981718063354492,
+    "segment": 11
+  },
+  {
+    "word": "with",
+    "start": 41.28,
+    "end": 41.58,
+    "probability": 0.9995161294937134,
+    "segment": 11
+  },
+  {
+    "word": "your",
+    "start": 41.58,
+    "end": 41.74,
+    "probability": 0.999037504196167,
+    "segment": 11
+  },
+  {
+    "word": "prescriber,",
+    "start": 41.74,
+    "end": 42.36,
+    "probability": 0.9915086030960083,
+    "segment": 11
+  },
+  {
+    "word": "moisturize,",
+    "start": 43.0,
+    "end": 43.64,
+    "probability": 0.9689024388790131,
+    "segment": 11
+  },
+  {
+    "word": "and",
+    "start": 44.16,
+    "end": 44.2,
+    "probability": 0.9989401698112488,
+    "segment": 11
+  },
+  {
+    "word": "use",
+    "start": 44.2,
+    "end": 44.44,
+    "probability": 0.9988613128662109,
+    "segment": 11
+  },
+  {
+    "word": "SPF",
+    "start": 44.44,
+    "end": 45.04,
+    "probability": 0.9629839956760406,
+    "segment": 11
+  },
+  {
+    "word": "30",
+    "start": 45.04,
+    "end": 45.38,
+    "probability": 0.6171547174453735,
+    "segment": 11
+  },
+  {
+    "word": "or",
+    "start": 45.38,
+    "end": 45.6,
+    "probability": 0.9912346601486206,
+    "segment": 11
+  },
+  {
+    "word": "higher.",
+    "start": 45.6,
+    "end": 45.88,
+    "probability": 0.9967594742774963,
+    "segment": 11
+  },
+  {
+    "word": "Avoid",
+    "start": 46.6,
+    "end": 46.82,
+    "probability": 0.9908102750778198,
+    "segment": 12
+  },
+  {
+    "word": "tretinoin",
+    "start": 46.82,
+    "end": 47.58,
+    "probability": 0.7573868483304977,
+    "segment": 12
+  },
+  {
+    "word": "during",
+    "start": 47.58,
+    "end": 47.74,
+    "probability": 0.9973217844963074,
+    "segment": 12
+  },
+  {
+    "word": "pregnancy.",
+    "start": 47.74,
+    "end": 48.2,
+    "probability": 0.9990357160568237,
+    "segment": 12
+  },
+  {
+    "word": "More",
+    "start": 49.18,
+    "end": 49.34,
+    "probability": 0.9830068349838257,
+    "segment": 13
+  },
+  {
+    "word": "irritation",
+    "start": 49.34,
+    "end": 49.74,
+    "probability": 0.9919658899307251,
+    "segment": 13
+  },
+  {
+    "word": "does",
+    "start": 49.74,
+    "end": 50.38,
+    "probability": 0.9919203519821167,
+    "segment": 13
+  },
+  {
+    "word": "not",
+    "start": 50.38,
+    "end": 50.68,
+    "probability": 0.9918919801712036,
+    "segment": 13
+  },
+  {
+    "word": "mean",
+    "start": 50.68,
+    "end": 51.0,
+    "probability": 0.9993575215339661,
+    "segment": 13
+  },
+  {
+    "word": "better",
+    "start": 51.0,
+    "end": 51.3,
+    "probability": 0.9966534972190857,
+    "segment": 13
+  },
+  {
+    "word": "results.",
+    "start": 51.3,
+    "end": 51.66,
+    "probability": 0.9994086027145386,
+    "segment": 13
+  }
+]

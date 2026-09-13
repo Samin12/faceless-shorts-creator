@@ -1,157 +1,68 @@
-# claude-faceless-shorts-creator
+# Samin’s Faceless Shorts Creator
 
-**A faceless YouTube-Shorts factory you drive with [Claude Code](https://claude.com/claude-code).**
-Three production tracks in one repo — you just describe the video, and the right pipeline runs:
+A Codex-driven studio for researched vertical videos, maintained by [Samin](https://github.com/Samin12).
 
-| You say… | Track | The pixels |
-|---|---|---|
-| *"make a short about the ×11 trick"* | **TSX** (`/make-short`) | 100% code — a [Remotion](https://remotion.dev) composition, no footage, no stock |
-| *"make an AI video short with blue-man"* | **Generative** (`/make-ai-short`) | a fal video model animating a **locked recurring character** |
-| *"make a vox-style short about coffee"* | **Collage** (`/make-vox`) | Vox-documentary paper collage — AI-image layers, die-cuts, a traveling camera |
+**GPT images through Codex subscription authentication · Higgsfield narration and motion · Remotion editing.**
 
-Every track shares the same backbone: ElevenLabs voice with **word-exact synced captions**,
-frame-by-frame QA at phone scale, a reusable self-growing SFX/music library, seamless
-frame-0==last-frame loops, and no dated engagement-CTA outros.
+## Create a video
 
-## 📖 Read the guide
+Open this repository in Codex and ask:
 
-I wrote up the whole system on my site, including the six-beat grammar that decides whether a
-40-second short is worth finishing:
-**[Make Faceless YouTube Shorts With Claude Code](https://learnwithhasan.com/guide/how-to-make-faceless-youtube-shorts-with-claude-code/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=body)**
+> Make a researched 9:16 educational short for my brand. Generate the images with Codex, the narration and motion with Higgsfield, and render the finished video.
 
-Free to read, no login. More build guides at
-**[learnwithhasan.com/guides](https://learnwithhasan.com/guides/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=body)**.
+Codex follows `AGENTS.md`. Supply a topic, brand, and reference style when available. Claims are researched before generation; image and audio assets are saved locally for reuse.
 
-## The example videos (more coming)
+## Setup
 
-**TSX shorts** (`shorts/`) — 12 complete productions; each folder has the script, beats
-contract, and SFX cue sheet, and the committed composition renders the exact video:
-
-| # | Niche | Title / hook |
-|---|---|---|
-| 1 | Chess | The 4-Move Checkmate — Punished |
-| 2 | Math | The ×11 Trick |
-| 3 | Algorithms | Bubble vs Quick: The Race |
-| 4 | Dev tips | `git reflog` undoes any mistake |
-| 5 | Probability | Monty Hall, Finally Intuitive |
-| 6 | Excel | Excel Reads Your Mind (Flash Fill / Ctrl+E) |
-| 7 | Kids story | Little Pip (AI-image storybook, ages 4–6) |
-| 8 | Cybersecurity | The URL That Isn't PayPal |
-| 9 | Music theory | The 4 Chords In Every Hit |
-| 10 | Money math | The 1% Fee That Eats 24% Of Your Retirement |
-| 11 | Geography | The Map Lied To You |
-| 12 | Physics | Astronauts Aren't Weightless. They're Falling. |
-
-**Generative** (`ai-shorts/blue-man/`) — *The Door*: a clay-render character walking through
-doors across worlds, thesis "arrival is a myth". Includes the **locked character sheet**
-(`character.json` + reference PNG), the model bake-off records (Seedance vs Kling vs Veo, with
-derived per-second costs), and the six generated clips — committed, because video-model pixels
-are not reproducible.
-
-**Collage** (`vox-shorts/vox-1-coffee/`) — a Vox-style documentary short on coffee's journey:
-generated map/archival/cutout layers (committed), a camera choreographed across scenes, and
-`DESIGN.md` — the full visual-language spec of the collage engine.
-
-Rendered videos aren't committed (they're reproducible from the repo); links to published
-versions will be added here as they go live.
-
-## How a short gets made
-
-```
-topic ──▶ script.md + beats.json      the beat grammar: HOOK (frame 0 = the thumbnail)
-                │                      → SETUP → QUIZ → REVEAL → TWIST → seamless LOOP
-                ▼
-        the visuals                    TSX composition / video-model clips / collage layers
-                │                      (per track — but always ONE Remotion timeline)
-                ▼
-        frame-by-frame QA              Claude renders PNGs at phone scale and READS them
-                │
-                ▼
-        gen_voice.py                   ElevenLabs TTS per line → REAL per-word timestamps
-                │                      → captions highlight on the exact spoken word
-                ▼
-        sfx-plan.json + mix_sfx.py     library-first sound design, audition mix, your ear
-                │                      is the final gate (optional music bed: mix_music.py)
-                ▼
-        <track>/<project>/output/*-sfx.mp4
-```
-
-Five Claude Code **skills** encode the craft:
-
-- **`/make-short`** — the TSX pipeline: hook grammar, no-CTA outros, caption safe areas,
-  Sequence-local frame math, loop-into-intro endings.
-- **`/make-ai-short`** — the generative pipeline and its three iron rules: never regenerate a
-  locked character from text, state the cost before spending it, loop by end-frame constraint.
-- **`/make-vox`** — scene dissection into layers, cheapest-source layer production
-  (gen_image + rembg cutouts, HTML→PNG, SVG-in-TSX), CollageBoard camera choreography.
-- **`/vidtsx-2d-generator`** — the TSX authoring rules that keep Remotion renders from crashing.
-- **`/suggest-sfx`** — taste-encoded sound design: function-first cues, layered hero moments,
-  measured audibility (RMS-diff, not hope), a library that compounds across videos.
-
-`brand.md` is the style contract (palette, type, motion, SFX taste) — swap it for your own
-brand and every future short follows it.
-
-## Quickstart
-
-Requirements: [Claude Code](https://claude.com/claude-code) · Node 18+ · Python 3.10+ ·
-`ffmpeg` on PATH · an [ElevenLabs](https://elevenlabs.io) key (voice/SFX/music). For the
-generative track add a [fal.ai](https://fal.ai) key; for collage layer production:
-`pip install pillow rembg playwright && playwright install chromium` (the only pip installs
-in the repo — everything else is stdlib).
+Install Node 18+, Python 3.10+, FFmpeg, Codex CLI and Higgsfield CLI. Sign into Codex with ChatGPT and into Higgsfield with `higgsfield auth login`. Higgsfield generations use your Higgsfield allowance; they are separate from your Codex subscription. No OpenAI Platform, ElevenLabs, or fal API key is required for the new workflow.
 
 ```bash
-git clone https://github.com/hassancs91/claude-faceless-shorts-creator
-cd claude-faceless-shorts-creator
-cp .env.example .env          # add your keys
-cd remotion && npm install && npm run gen && cd ..
-
-claude                        # open the repo in Claude Code, then:
+git clone https://github.com/Samin12/faceless-shorts-creator.git
+cd faceless-shorts-creator
+cd remotion
+npm ci
+npm run studio
 ```
 
-> **make a short about &lt;your topic&gt;** · **make an AI video short about &lt;idea&gt;** ·
-> **make a vox-style short about &lt;story&gt;**
+From the repository root:
 
-…or rebuild an example: *"re-render short-5 and regenerate its voice"*.
+```bash
+# Image generation: prefer Codex’s built-in image tool. CLI alternative:
+bash tools/codex_image.sh shorts/skin-trio/image-prompt.txt media/projects/skin-trio/new-textures.png
 
-To just explore the compositions visually: `cd remotion && npm run studio`.
+# Generate audio or a five-second vertical motion clip. Existing outputs are protected.
+python3 tools/generate_media.py audio --prompt-file shorts/skin-trio/narration-prompt.txt --out media/projects/skin-trio/new-narration.wav
+python3 tools/generate_media.py video --prompt-file shorts/skin-trio/motion-prompt.txt --out media/projects/skin-trio/new-motion.mp4
 
-## Repo layout
-
-```
-.claude/skills/   the five skills (this is where the "editor" lives)
-tools/            Python: gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_image,
-                  gen_clip, bakeoff_clip, cutout, capture_web, gen_chords
-remotion/         the Remotion project — shared kits in src/lib/ (incl. collage.tsx),
-                  one folder per video in src/shots/
-media/library/    reusable assets: SFX clips + music beds (catalogued, loudness-normalized)
-media/projects/   media for one specific video — incl. committed AI clips & collage layers
-shorts/           the 12 TSX example productions
-ai-shorts/        the generative track: blue-man/ (locked character) + IDEAS.md (cost tables)
-vox-shorts/       the collage track: vox-1-coffee/ + DESIGN.md (the visual language)
-brand.md          the style contract — make it yours
-IDEAS.md          the TSX-shorts niche/idea bank
+# Inspect the request without spending credits:
+python3 tools/generate_media.py audio --prompt-file shorts/skin-trio/narration-prompt.txt --out /tmp/preview.wav --dry-run
 ```
 
-## License
+## Featured example: Samin’s Azelaic Acid
 
-MIT — see [LICENSE](LICENSE). Bundled SFX/music clips and example AI media were generated by
-the repo author (ElevenLabs / fal / Gemini) and are redistributed here; per-clip provenance is
-recorded in `media/library/*/catalog.json` and the per-shot `.json` sidecars.
+[Watch or download the finished 53-second video](examples/samins-azelaic-acid.mp4)
 
-<!-- lwh-footer -->
+![Video preview](media/projects/skin-trio/poster.png)
 
----
+**Samin’s Azelaic Acid** is a fictional skincare education brand used for this demo; it is not affiliated with La Roche-Posay. The hook is “The glass-skin routine, explained,” with azelaic acid as the lead ingredient. The short explains azelaic acid, prescription tretinoin, and Cicaplast Baume B5+. It includes an illustrative before/after, realistic expectations, and relevant precautions.
 
-## 📘 The free book
+- [Research and claim checks](shorts/skin-trio/research.md)
+- [Narration prompt](shorts/skin-trio/narration-prompt.txt)
+- [Composition](remotion/src/shots/skin-trio/SkinTrio.tsx)
+- Generated assets: `media/projects/skin-trio/`
 
-This repo is one thing I built with AI. The book is the system underneath it.
+```bash
+cd remotion
+npm run gen
+npx remotion render src/index.ts SkinTrio ../shorts/skin-trio/output/samins-azelaic-acid.mp4 --concurrency=2
+```
 
-**[Vibe Engineering Blocks](https://learnwithhasan.com/blocks/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=footer)** is my free 74-page book.
-47 building blocks for shipping real apps with AI. One block per page, each with the exact
-prompt to hand your AI.
+Generated assets and the finished demo MP4 are committed. Re-render working files are stored in the ignored output folder. New narration requires updating the verified caption timestamps before rendering. The example uses speech-recognition timestamps, which should be reviewed against the audio.
 
-Built by **[Hasan Aboul Hasan](https://learnwithhasan.com/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=footer)**. I build real products with AI and
-write down exactly how.
-[Guides](https://learnwithhasan.com/guides/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=footer) &nbsp;·&nbsp;
-[YouTube](https://www.youtube.com/@HasanAboulHasan) &nbsp;·&nbsp;
-[Community](https://learnwithhasan.com/community/?utm_source=github&utm_medium=readme&utm_campaign=claude-faceless-shorts-creator&utm_content=footer)
+## Other examples
+
+The original TSX, generative-character, and collage examples remain in `shorts/`, `ai-shorts/`, and `vox-shorts/`. Their historical tools may require their original providers. New work defaults to the Codex/Higgsfield workflow above.
+
+## License and provenance
+
+MIT; see [LICENSE](LICENSE). This adaptation retains the upstream copyright notice and Git history. Original examples and media retain their recorded provenance. Samin maintains this adaptation and its new workflow.

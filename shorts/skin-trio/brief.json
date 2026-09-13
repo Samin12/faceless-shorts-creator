@@ -1,0 +1,22 @@
+{
+  "brand": "Samin\u2019s Azelaic Acid",
+  "fictional_demo": true,
+  "title": "The glass-skin routine, explained",
+  "composition": "SkinTrio",
+  "fps": 30,
+  "duration_seconds": 53,
+  "scene_starts_seconds": [
+    0,
+    6.333333333333333,
+    12.966666666666667,
+    16.3,
+    22.833333333333332,
+    32.233333333333334,
+    40.43333333333333
+  ],
+  "voice_provider": "Higgsfield Seed Audio",
+  "image_provider": "Codex built-in image generation",
+  "motion_provider": "Higgsfield Seedance 2.0",
+  "captions": "Whisper base.en word timing with proper-name spelling corrections",
+  "before_after": "schematic illustration, not patient results"
+}

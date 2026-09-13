@@ -1,0 +1,6 @@
+{
+  "provider": "Codex built-in image generation",
+  "billing": "ChatGPT/Codex authenticated tool; no OpenAI API key used",
+  "prompt_file": "shorts/skin-trio/image-prompt.txt",
+  "sha256": "d896eaf61a87a8e63122b7fb9e0b24a17e36dc50cbaa650fd858faa6dfb95cc8"
+}

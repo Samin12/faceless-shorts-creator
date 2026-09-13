@@ -25,3 +25,7 @@ ai-shorts/*/bakeoff/*.mp4
 
 # local editor config
 .vscode/
+
+# Local generation responses may contain temporary URLs
+shorts/skin-trio/*-job.json
+shorts/skin-trio/*-error.log

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "typescript": "passed: npx tsc --noEmit",
+  "media_contract_tests": "4 passed",
+  "render": "1590 frames, 1080x1920, 30fps, H264 + AAC",
+  "duration_seconds": 53.056,
+  "decode": "ffmpeg full-file decode passed",
+  "visual_review": "Inspected intro, ingredient, balm, comparison, and final frames at phone scale; captions grouped within sentences",
+  "audio_review": "Whisper transcript checked against script, spelling corrected for proper names; not a clinical or pronunciation review",
+  "research": "AAD individual-ingredient and retinoid guidance; manufacturer balm information. No proven trio efficacy claim.",
+  "known_limitations": [
+    "Illustrative before/after, not patient evidence",
+    "Fictional branded concept; no actual Samin product formula supplied",
+    "Higgsfield local reference upload returned a signature error; final motion generated from text",
+    "Legacy dependency audit reports 1 moderate and 4 high findings; dependency upgrades outside this change"
+  ]
+}
