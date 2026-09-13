@@ -1,0 +1,13 @@
+{
+  "provider": "higgsfield",
+  "model": "seedance_2_5",
+  "job_id": "c6a547e9-47b7-47d3-82d8-89db3a7514b0",
+  "edit": {
+    "keep_seconds": [
+      0,
+      9
+    ]
+  },
+  "sha256": "f452f3042ab2bd403ec529963540ac85de847ad57fc6103581d81104ebdd33b3",
+  "synthetic_presenter": true
+}

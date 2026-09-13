@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-13",
+  "ugc_duration_seconds": 29.056,
+  "private_dermatologist_draft_seconds": 34.056,
+  "video": "1080x1920, 30fps, H264, AAC",
+  "typescript": "passed",
+  "media_tests": "4 passed",
+  "ugc_decode": "complete ffmpeg decode passed",
+  "ugc_audio": "Final export transcribed; bad technical-name takes and unwanted pronunciation instruction removed. Surviving speech matches controlled captions.",
+  "visual_checks": [
+    "Consistent fictional adult identity",
+    "Normal skin texture retained",
+    "Simulation label baked into comparison and visible in final",
+    "Ingredient names in controlled overlays",
+    "First, middle and final frames inspected"
+  ],
+  "private_draft": "Source footage/audio preserved, five-second Doctorly excerpt with source and non-endorsement labels, full draft watermark; no commercial permission established; excluded from Git",
+  "source": "https://www.youtube.com/watch?v=1VYdmf7Rxw8"
+}

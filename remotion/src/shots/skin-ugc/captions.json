@@ -1,0 +1,359 @@
+[
+  {
+    "word": "Chasing",
+    "start": 0.0,
+    "end": 0.96,
+    "probability": 0.9460087716579437,
+    "segment": 1
+  },
+  {
+    "word": "glass",
+    "start": 0.96,
+    "end": 1.16,
+    "probability": 0.9562466740608215,
+    "segment": 1
+  },
+  {
+    "word": "skin?",
+    "start": 1.16,
+    "end": 1.58,
+    "probability": 0.9927137494087219,
+    "segment": 1
+  },
+  {
+    "word": "Start",
+    "start": 2.44,
+    "end": 2.64,
+    "probability": 0.9818146824836731,
+    "segment": 2
+  },
+  {
+    "word": "with",
+    "start": 2.64,
+    "end": 2.96,
+    "probability": 0.998815655708313,
+    "segment": 2
+  },
+  {
+    "word": "what",
+    "start": 2.96,
+    "end": 3.16,
+    "probability": 0.9918861389160156,
+    "segment": 2
+  },
+  {
+    "word": "each",
+    "start": 3.16,
+    "end": 3.48,
+    "probability": 0.9960243701934814,
+    "segment": 2
+  },
+  {
+    "word": "ingredient",
+    "start": 3.48,
+    "end": 4.0,
+    "probability": 0.9968920350074768,
+    "segment": 2
+  },
+  {
+    "word": "actually",
+    "start": 4.0,
+    "end": 4.68,
+    "probability": 0.9920765161514282,
+    "segment": 2
+  },
+  {
+    "word": "does.",
+    "start": 4.68,
+    "end": 5.14,
+    "probability": 0.9978278279304504,
+    "segment": 2
+  },
+  {
+    "word": "A",
+    "start": 5.5,
+    "end": 6.14,
+    "probability": 0.934886634349823,
+    "segment": 3
+  },
+  {
+    "word": "prescription",
+    "start": 6.14,
+    "end": 6.54,
+    "probability": 0.9907774925231934,
+    "segment": 3
+  },
+  {
+    "word": "retinoid",
+    "start": 6.54,
+    "end": 7.32,
+    "probability": 0.8130144576231638,
+    "segment": 3
+  },
+  {
+    "word": "helps",
+    "start": 7.32,
+    "end": 7.9399999999999995,
+    "probability": 0.9892014265060425,
+    "segment": 3
+  },
+  {
+    "word": "keep",
+    "start": 7.9399999999999995,
+    "end": 8.44,
+    "probability": 0.9863874912261963,
+    "segment": 3
+  },
+  {
+    "word": "pores",
+    "start": 8.44,
+    "end": 8.92,
+    "probability": 0.9177113771438599,
+    "segment": 3
+  },
+  {
+    "word": "clear.",
+    "start": 8.92,
+    "end": 9.46,
+    "probability": 0.9954533576965332,
+    "segment": 3
+  },
+  {
+    "word": "A",
+    "start": 10.46,
+    "end": 10.5,
+    "probability": 0.9797948598861694,
+    "segment": 4
+  },
+  {
+    "word": "soothing",
+    "start": 10.5,
+    "end": 10.8,
+    "probability": 0.994759738445282,
+    "segment": 4
+  },
+  {
+    "word": "balm",
+    "start": 10.8,
+    "end": 11.48,
+    "probability": 0.9694235026836395,
+    "segment": 4
+  },
+  {
+    "word": "moisturizes",
+    "start": 11.48,
+    "end": 12.52,
+    "probability": 0.7745001018047333,
+    "segment": 4
+  },
+  {
+    "word": "dry,",
+    "start": 12.52,
+    "end": 12.940000000000001,
+    "probability": 0.9915771484375,
+    "segment": 4
+  },
+  {
+    "word": "irritated",
+    "start": 12.940000000000001,
+    "end": 13.82,
+    "probability": 0.9899522662162781,
+    "segment": 5
+  },
+  {
+    "word": "skin.",
+    "start": 13.82,
+    "end": 14.24,
+    "probability": 0.9983977675437927,
+    "segment": 5
+  },
+  {
+    "word": "These",
+    "start": 14.5,
+    "end": 15.0,
+    "probability": 0.9090937376022339,
+    "segment": 6
+  },
+  {
+    "word": "images",
+    "start": 15.0,
+    "end": 15.34,
+    "probability": 0.9935041069984436,
+    "segment": 6
+  },
+  {
+    "word": "are",
+    "start": 15.34,
+    "end": 15.66,
+    "probability": 0.9952369928359985,
+    "segment": 6
+  },
+  {
+    "word": "simulated,",
+    "start": 15.66,
+    "end": 15.98,
+    "probability": 0.9647451043128967,
+    "segment": 6
+  },
+  {
+    "word": "not",
+    "start": 16.64,
+    "end": 16.72,
+    "probability": 0.995342493057251,
+    "segment": 7
+  },
+  {
+    "word": "real",
+    "start": 16.72,
+    "end": 16.96,
+    "probability": 0.9945447444915771,
+    "segment": 7
+  },
+  {
+    "word": "results.",
+    "start": 16.96,
+    "end": 17.34,
+    "probability": 0.9657265543937683,
+    "segment": 7
+  },
+  {
+    "word": "Improvements",
+    "start": 18.38,
+    "end": 18.38,
+    "probability": 0.761618971824646,
+    "segment": 8
+  },
+  {
+    "word": "take",
+    "start": 18.38,
+    "end": 18.78,
+    "probability": 0.985539972782135,
+    "segment": 8
+  },
+  {
+    "word": "time.",
+    "start": 18.78,
+    "end": 19.22,
+    "probability": 0.9976862668991089,
+    "segment": 8
+  },
+  {
+    "word": "Introduce",
+    "start": 19.98,
+    "end": 20.2,
+    "probability": 0.9879689812660217,
+    "segment": 9
+  },
+  {
+    "word": "products",
+    "start": 20.2,
+    "end": 20.44,
+    "probability": 0.9944849610328674,
+    "segment": 9
+  },
+  {
+    "word": "with",
+    "start": 20.44,
+    "end": 20.82,
+    "probability": 0.9966198205947876,
+    "segment": 9
+  },
+  {
+    "word": "your",
+    "start": 20.82,
+    "end": 20.94,
+    "probability": 0.9969577789306641,
+    "segment": 9
+  },
+  {
+    "word": "prescriber.",
+    "start": 20.94,
+    "end": 21.58,
+    "probability": 0.9838303029537201,
+    "segment": 9
+  },
+  {
+    "word": "Moisturize,",
+    "start": 22.259999999999998,
+    "end": 22.740000000000002,
+    "probability": 0.8515748381614685,
+    "segment": 10
+  },
+  {
+    "word": "wear",
+    "start": 23.08,
+    "end": 23.1,
+    "probability": 0.9922992587089539,
+    "segment": 11
+  },
+  {
+    "word": "sunscreen,",
+    "start": 23.1,
+    "end": 23.439999999999998,
+    "probability": 0.9976765513420105,
+    "segment": 11
+  },
+  {
+    "word": "and",
+    "start": 24.14,
+    "end": 24.16,
+    "probability": 0.9855900406837463,
+    "segment": 12
+  },
+  {
+    "word": "avoid",
+    "start": 24.16,
+    "end": 24.439999999999998,
+    "probability": 0.9833461046218872,
+    "segment": 12
+  },
+  {
+    "word": "prescription",
+    "start": 24.439999999999998,
+    "end": 24.92,
+    "probability": 0.9926149845123291,
+    "segment": 12
+  },
+  {
+    "word": "retinoids",
+    "start": 24.92,
+    "end": 25.6,
+    "probability": 0.9807674487431844,
+    "segment": 12
+  },
+  {
+    "word": "during",
+    "start": 25.6,
+    "end": 26.060000000000002,
+    "probability": 0.9832556247711182,
+    "segment": 12
+  },
+  {
+    "word": "pregnancy.",
+    "start": 26.060000000000002,
+    "end": 26.48,
+    "probability": 0.9990646243095398,
+    "segment": 12
+  },
+  {
+    "word": "Save",
+    "start": 27.439999999999998,
+    "end": 27.439999999999998,
+    "probability": 0.9772466421127319,
+    "segment": 13
+  },
+  {
+    "word": "the",
+    "start": 27.439999999999998,
+    "end": 27.64,
+    "probability": 0.994478702545166,
+    "segment": 13
+  },
+  {
+    "word": "routine.",
+    "start": 27.64,
+    "end": 27.78,
+    "probability": 0.9889234900474548,
+    "segment": 13
+  }
+]

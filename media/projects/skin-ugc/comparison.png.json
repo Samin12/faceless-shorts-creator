@@ -1,0 +1,8 @@
+{
+  "provider": "higgsfield",
+  "model": "gpt_image_2_5",
+  "job_id": "39abe40e-b691-4820-bb2c-d9606a55e389",
+  "sha256": "6911e3f7467bc05afcbace3ab8e54c44a59635e2fbb904dd3738270dafbc961d",
+  "synthetic": true,
+  "medical_evidence": false
+}

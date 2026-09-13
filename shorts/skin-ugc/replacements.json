@@ -1,0 +1,106 @@
+{
+  "replacement_requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "duration": 15,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "generate_audio": true,
+        "medias": [
+          {
+            "role": "image",
+            "value": "319115e0-073b-4eac-9f1a-fe390c38f033"
+          },
+          {
+            "role": "video",
+            "value": "08e19f1c-d171-4b65-b8e9-288cea01872a"
+          }
+        ],
+        "prompt": "Create a realistic iPhone selfie skincare UGC scene using the EXACT fictional adult woman from the image, ivory T shirt, tied-back dark hair, natural medium brown skin and same bathroom. The video is a voice and mannerism reference ONLY: do NOT repeat its dialogue. Match her natural conversational English voice. Eye-level chest-up framing. Natural pores, no beauty filter, no cosmetic skin change, no makeup, no bokeh. Small normal facial expressions and gestures. Speak exactly this NEW dialogue with natural lip sync: 'Want a clearer, more even-looking complexion? This ingredient can help treat acne and the dark marks left behind. Glass skin is a goal, not a guarantee.'. All words comfortably inside 15 seconds. No additional words. NO subtitles, captions, text, logos, product application or music. The editor adds the ingredient names later; do not say any brand names or drug names. Pronounce retinoid as RET-in-oyd if that word appears. Finish on a relaxed expression."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "duration": 15,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "generate_audio": true,
+        "medias": [
+          {
+            "role": "image",
+            "value": "319115e0-073b-4eac-9f1a-fe390c38f033"
+          },
+          {
+            "role": "video",
+            "value": "08e19f1c-d171-4b65-b8e9-288cea01872a"
+          }
+        ],
+        "prompt": "Create a realistic iPhone selfie skincare UGC scene using the EXACT fictional adult woman from the image, ivory T shirt, tied-back dark hair, natural medium brown skin and same bathroom. The video is a voice and mannerism reference ONLY: do NOT repeat its dialogue. Match her natural conversational English voice. Eye-level chest-up framing. Natural pores, no beauty filter, no cosmetic skin change, no makeup, no bokeh. Small normal facial expressions and gestures. Speak exactly this NEW dialogue with natural lip sync: 'A prescription retinoid helps keep pores clear. A soothing balm moisturizes dry, irritated skin. Different jobs, in a routine your prescriber helps you build.'. All words comfortably inside 15 seconds. No additional words. NO subtitles, captions, text, logos, product application or music. The editor adds the ingredient names later; do not say any brand names or drug names. Pronounce retinoid as RET-in-oyd if that word appears. Finish on a relaxed expression."
+      }
+    }
+  ],
+  "replacement_jobs": [
+    {
+      "index": 0,
+      "job_id": "2de2b271-7941-48da-bb3b-adffc1c48bd2",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "video",
+          "used": "video_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "job_id": "c6a547e9-47b7-47d3-82d8-89db3a7514b0",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "video",
+          "used": "video_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    }
+  ],
+  "closing": [
+    {
+      "id": "de9bafda-747e-40c5-b6bf-8917a6e07b66",
+      "type": "video",
+      "status": "pending",
+      "model": "seedance_2_5",
+      "params": {
+        "prompt": "Create the closing scene of the skincare UGC video. Match the EXACT adult fictional woman, ivory shirt, bathroom daylight and natural conversational female voice from the references. The image locks her identity; the video is a voice and mannerism reference, DO NOT repeat its dialogue. Natural iPhone camera, visible pores, no makeup, no beauty smoothing, no cinematography. Medium chest-up framing, mouth and forehead visible. NO subtitles, NO captions, NO written words anywhere. Only one woman. Speak exactly this new dialogue with accurate lip sync: 'These images are simulated, not real results. Improvements take time. Introduce products with your prescriber. Moisturize, wear sunscreen, and avoid prescription retinoids during pregnancy. Save the routine.' Pronounce retinoids as RET-in-oydz. Warm calm delivery with natural breaths, fit all words comfortably within 15 seconds, finish with a small smile. No additional speech or music. Never say this is a personal result.",
+        "aspect_ratio": "9:16",
+        "duration": 15,
+        "reference_images": [
+          "319115e0-073b-4eac-9f1a-fe390c38f033",
+          "08e19f1c-d171-4b65-b8e9-288cea01872a"
+        ],
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "generate_audio": true
+      }
+    }
+  ]
+}

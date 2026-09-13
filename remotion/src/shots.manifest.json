@@ -112,6 +112,14 @@
   "transparent": false
  },
  {
+  "id": "SkinUgc",
+  "durationInSeconds": 29,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Vox1Coffee",
   "durationInSeconds": 40.5,
   "fps": 30,

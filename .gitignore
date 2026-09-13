@@ -29,3 +29,9 @@ ai-shorts/*/bakeoff/*.mp4
 # Local generation responses may contain temporary URLs
 shorts/skin-trio/*-job.json
 shorts/skin-trio/*-error.log
+
+# Unlicensed editorial reference drafts remain local
+private-review/
+shorts/skin-ugc/output/
+shorts/skin-ugc/voice/
+shorts/skin-ugc/voice-qa/

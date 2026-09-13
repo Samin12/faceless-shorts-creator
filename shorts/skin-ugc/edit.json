@@ -1,0 +1,15 @@
+{
+  "duration_seconds": 29,
+  "clip_durations_seconds": [
+    5.5,
+    9,
+    14.5
+  ],
+  "comparison_seconds": [
+    14.5,
+    20.5
+  ],
+  "private_dermatologist_variant_seconds": 34,
+  "doctor_insert_seconds": 5.5,
+  "speech_qa": "Retained clean sentences; removed mispronounced drug names and an unwanted pronunciation instruction. Ingredient names added as controlled text."
+}

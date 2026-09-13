@@ -59,6 +59,20 @@ npx remotion render src/index.ts SkinTrio ../shorts/skin-trio/output/samins-azel
 
 Generated assets and the finished demo MP4 are committed. Re-render working files are stored in the ignored output folder. New narration requires updating the verified caption timestamps before rendering. The example uses speech-recognition timestamps, which should be reviewed against the audio.
 
+## Realistic AI UGC ad
+
+[Watch the 29-second Samin’s Azelaic Acid UGC ad](examples/samins-azelaic-acid-ugc.mp4)
+
+![AI presenter preview](media/projects/skin-ugc/poster.png)
+
+A Higgsfield-generated presenter, native speech, realistic simulated comparison, and controlled captions. The speaker is fictional and the comparison is not patient evidence. [Production notes](shorts/skin-ugc/brief.md) include the local-only dermatologist companion and source reference.
+
+```bash
+cd remotion
+npm run gen
+npx remotion render src/index.ts SkinUgc ../shorts/skin-ugc/output/samins-azelaic-acid-ugc.mp4 --concurrency=2
+```
+
 ## Other examples
 
 The original TSX, generative-character, and collage examples remain in `shorts/`, `ai-shorts/`, and `vox-shorts/`. Their historical tools may require their original providers. New work defaults to the Codex/Higgsfield workflow above.

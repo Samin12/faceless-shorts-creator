@@ -1,0 +1,101 @@
+{
+  "presenter_job": "319115e0-073b-4eac-9f1a-fe390c38f033",
+  "comparison_job": "39abe40e-b691-4820-bb2c-d9606a55e389",
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "duration": 15,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "generate_audio": true,
+        "medias": [
+          {
+            "role": "image",
+            "value": "319115e0-073b-4eac-9f1a-fe390c38f033"
+          }
+        ],
+        "prompt": "Use the reference image as the exact fictional adult presenter identity, ivory T shirt, tied-back dark hair, natural medium brown skin, gold stud earrings, and same bathroom. Authentic iPhone selfie UGC video, 9:16, eye level, natural soft daylight, realistic skin pores, no beauty filter, no cinematic bokeh. One woman only. Natural synchronized English speech, warm conversational female voice, consistent voice across clips. Small natural gestures below the chin, ordinary blinks, subtle handheld movement. No music, no generated text, no medical coat or credentials, no products applied, no false personal testimonial. Keep face fully visible with room for captions. Clip 1 of 3. Speak exactly this dialogue, without extra words, naturally within 15 seconds: \"Chasing glass skin? Start with what each ingredient actually does. Samin's Azelaic Acid is our concept: azelaic acid can help treat acne and the dark marks it leaves behind.\". Start with an engaging gentle lean toward camera."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "duration": 15,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "generate_audio": true,
+        "medias": [
+          {
+            "role": "image",
+            "value": "319115e0-073b-4eac-9f1a-fe390c38f033"
+          }
+        ],
+        "prompt": "Use the reference image as the exact fictional adult presenter identity, ivory T shirt, tied-back dark hair, natural medium brown skin, gold stud earrings, and same bathroom. Authentic iPhone selfie UGC video, 9:16, eye level, natural soft daylight, realistic skin pores, no beauty filter, no cinematic bokeh. One woman only. Natural synchronized English speech, warm conversational female voice, consistent voice across clips. Small natural gestures below the chin, ordinary blinks, subtle handheld movement. No music, no generated text, no medical coat or credentials, no products applied, no false personal testimonial. Keep face fully visible with room for captions. Clip 2 of 3. Speak exactly this dialogue, without extra words, naturally within 15 seconds: \"Tretinoin helps keep pores clear. Cicaplast Baume B5 plus moisturizes and soothes dry, irritated skin. Different jobs, working within a routine your prescriber helps you build.\". Cut to a slightly closer crop, same person, same light."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "resolution": "1080p",
+        "duration": 15,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "generate_audio": true,
+        "medias": [
+          {
+            "role": "image",
+            "value": "319115e0-073b-4eac-9f1a-fe390c38f033"
+          }
+        ],
+        "prompt": "Use the reference image as the exact fictional adult presenter identity, ivory T shirt, tied-back dark hair, natural medium brown skin, gold stud earrings, and same bathroom. Authentic iPhone selfie UGC video, 9:16, eye level, natural soft daylight, realistic skin pores, no beauty filter, no cinematic bokeh. One woman only. Natural synchronized English speech, warm conversational female voice, consistent voice across clips. Small natural gestures below the chin, ordinary blinks, subtle handheld movement. No music, no generated text, no medical coat or credentials, no products applied, no false personal testimonial. Keep face fully visible with room for captions. Clip 3 of 3. Speak exactly this dialogue, without extra words, naturally within 15 seconds: \"This comparison is simulated, not a real result. Progress takes weeks to months. Start gradually, moisturize, wear SPF thirty, and avoid tretinoin during pregnancy. Save this routine explainer.\". Speak calmly, reassuringly, finish with a natural small smile. No facial skin transformation."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "08e19f1c-d171-4b65-b8e9-288cea01872a",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "job_id": "d5b4da09-0d84-408d-a667-c6c39325e2e1",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "job_id": "f575d776-d4fe-4dfb-98e7-67ad9e57fe2a",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    }
+  ]
+}
